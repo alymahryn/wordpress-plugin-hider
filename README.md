@@ -19,6 +19,7 @@ Document this change clearly for future reference.
 
 ## Usage/Examples
 
+Open the file plugin-hider.php
 ```javascript
 function hide_plugins($plugins) {
     // List of plugins to hide (use the plugin's folder name)
