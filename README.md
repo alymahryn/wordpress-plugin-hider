@@ -22,12 +22,11 @@ Document this change clearly for future reference.
 Open the file plugin-hider.php and edit this function.
 ```javascript
 function hide_plugins($plugins) {
-    // List of plugins to hide (use the plugin's folder name)
+    // List of plugins to hide (use the plugin's folder name and/or main file name)
     $hidden_plugins = array(
-        'plugin-hider', // Hides this plugin
-        'your-plugin-name-here',
+        'your-plugin-folder' => 'your-plugin.php',
         
-        // Add more plugin folder names here if needed
+        // Add more plugins here if needed, following the 'folder' => 'main-file.php' pattern
     );
 
 ```
